@@ -85,6 +85,7 @@ fabric.properties
 *.iml
 out
 gen
+query
 ### Go template
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
@@ -103,8 +104,12 @@ gen
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+ vendor/
 
 # Go workspace file
 go.work
+
+# Sqlite files
+*.db
+
 
